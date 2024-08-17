@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="galeria.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Cid Plan</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">C<span>id</span> P<span>lan</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Inicio</a></li>
+                <li class="nav-item"><a href="#sbr">Sobre</a></li>
+                <li class="nav-item"><a href="#ctt">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h4 class="text-h4">Bem vindo a CIDNEI PLANEJADOS</h4>
+                <h1 class="text-h1">Fabricando móveis construindo sonhos.</h1>
+                <p>Na <span>CidPLan</span>, transformamos seus espaços com móveis planejados 
+                    100% MDF, unindo inovação, qualidade e o toque pessoal de Cidnei 
+                    para criar ambientes únicos e funcionais.</p>
+                <a href="https://api.whatsapp.com/send?phone=5547996338157&text=Ol%C3%A1%20CIDNEI%20gostaria%20de%20realizar%20um%20agendamento%20de%20or%C3%A7amento" class="home-btn">Agende seu orçamento</a>
+            </div>
+            <div class="home-img">
+                <img src="IMGS/images.jfif" alt="hamburguer">
+            </div>
+        </section>
+        <section class="trabalhos">
+            <div class="galeria-modal" onclick="fecharGaleria()">
+                <span>X</span>
+                <img src="" alt="">
+            </div>
+        
+            <section>
+
+                <h1 class="text-h1-gal">Principais projetos</h1>
+
+                <div class="galeria">
+
+                    <div class="single-galeria w-2 h-2">
+                        <img src="https://i.pinimg.com/564x/3d/ff/8b/3dff8bdf97d943ead5fdfd4b3e394724.jpg" 
+                        alt="" 
+                        onclick="abrirGaleria('https://i.pinimg.com/564x/3d/ff/8b/3dff8bdf97d943ead5fdfd4b3e394724.jpg')">
+                    </div>
+
+                    <div class="single-galeria">
+                        <img src="https://i.pinimg.com/736x/71/29/c6/7129c6ea8a5823e5856b3e410674d90f.jpg" 
+                        alt="" 
+                        onclick="abrirGaleria('https://i.pinimg.com/736x/71/29/c6/7129c6ea8a5823e5856b3e410674d90f.jpg')">
+                    </div>
+                    
+                    <div class="single-galeria h-2">
+                        <img src="https://i.pinimg.com/736x/d0/0c/6b/d00c6ba3423df731917863a1c251300d.jpg" 
+                        alt="" 
+                        onclick="abrirGaleria('https://i.pinimg.com/736x/d0/0c/6b/d00c6ba3423df731917863a1c251300d.jpg')">
+                    </div>
+
+                    <div class="single-galeria h-2">
+                        <img src="https://i.pinimg.com/564x/9e/e3/ee/9ee3ee902c27e3874a32fc67a83e30f8.jpg" 
+                        alt="" 
+                        onclick="abrirGaleria('https://i.pinimg.com/564x/9e/e3/ee/9ee3ee902c27e3874a32fc67a83e30f8.jpg')">
+                    </div>
+
+                    <div class="single-galeria">
+                        <img src="https://i.pinimg.com/564x/2c/2e/5a/2c2e5a706f5944476d56b5d8dc4274cc.jpg" 
+                        alt="" 
+                        onclick="abrirGaleria('https://i.pinimg.com/564x/2c/2e/5a/2c2e5a706f5944476d56b5d8dc4274cc.jpg')">
+                    </div>
+
+                    <div class="single-galeria">
+                        <img src="https://i.pinimg.com/564x/2e/b5/2a/2eb52a90f4e0042869035e821dcdc3e3.jpg" 
+                        alt="" 
+                        onclick="abrirGaleria('https://i.pinimg.com/564x/2e/b5/2a/2eb52a90f4e0042869035e821dcdc3e3.jpg')">
+                    </div>
+
+                    <div class="single-galeria">
+                        <img src="https://i.pinimg.com/564x/3f/10/20/3f1020f6c5c16fabb24d64b1189c2a57.jpg" 
+                        alt="" 
+                        onclick="abrirGaleria('https://i.pinimg.com/564x/3f/10/20/3f1020f6c5c16fabb24d64b1189c2a57.jpg')">
+                    </div>
+
+                </div>
+            </section>
+        </section>
+
+        <section class="formulario" id="ctt">
+            
+        <h1 class="text-h1-ctt">Entre em Contato</h1>
+            <div class="container">
+                
+                <div class="content">
+                    
+                  <div class="left-side">
+                    <div class="address details">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="topic">Endereço</div>
+                      <div class="text-one">Nicolau Stolarski, 202</div>
+                      <div class="text-two">Brasília - São Bento do Sul - SC</div>
+                    </div>
+                    <div class="phone details">
+                      <i class="fas fa-phone-alt"></i>
+                      <div class="topic">Telefone</div>
+                      <div class="text-one">+55 47 99633-8157</div>
+                    </div>
+                    <div class="email details">
+                      <i class="fas fa-envelope"></i>
+                      <div class="topic">Email</div>
+                      <div class="text-one">cidplan@gmail.com.br</div>
+                    </div>
+                  </div>
+                  <div class="right-side">
+                    <div class="topic-text">Envie sua mensagem</div>
+                    <p>
+                      Entre em contato e agende uma visita agora mesmo.
+                    </p>
+                    <form action="#">
+                      <div class="input-box">
+                        <input type="text" placeholder="Digite seu nome" />
+                      </div>
+                      <div class="input-box">
+                        <input type="text" placeholder="Digite seu email" />
+                      </div>
+                      <div class="input-box message-box">
+                        <textarea placeholder="Digite sua mensagem"></textarea>
+                      </div>
+                      <div class="button">
+                        <input type="button" value="Enviar" />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </section><!--formulario-->
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <img src="IMGS/1-removebg-preview.png" alt="Logotipo Agência BRN">
+                        </div><!--logo-footer-->
+                    </div>
+                </div><!--line-footer-->
+    
+                <div class="line-footer borda">
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                    <p><i class="bi bi-envelope-fill"></i> cidplan@gmail.com.br</p>
+                </div><!--line-footer-->
+            </div><!--interface-->
+        </footer>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
